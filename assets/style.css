@@ -1,0 +1,56 @@
+/*defaults*/
+
+window {
+    background-image: none;
+    border-image: none;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Customize the window bar */
+headerbar {
+    background-image: none;
+    border-image: none;
+    background-color: #000000;
+    color: #ff0000;
+  }
+
+#container {
+    background-image: none;
+    border-image: none;
+    background-color: rgba(4, 2, 2, 0.8);
+    border-radius: 5%;
+}
+
+#foo {
+    background-image: none;
+    border-image: none;
+    background-color: rgb(62, 121, 121);
+}
+#foo:hover {
+    background-color: rgb(49, 150, 49);
+}
+
+#mytextview {
+    caret-color: red;
+}
+#mytextview text {
+    color: red;
+    background-color: #000000;
+}
+#mytextview text selection {
+    color: chartreuse;
+    background-color: blueviolet;
+}
+
+#mytextview2 {
+    caret-color: rgb(251, 255, 0);
+}
+#mytextview2 text {
+    color: rgb(251, 255, 0);
+    background-color: #000000;
+}
+#mytextview2 text selection {
+    color: chartreuse;
+    background-color: blueviolet;
+}
+
